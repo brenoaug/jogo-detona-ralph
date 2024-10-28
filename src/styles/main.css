@@ -50,8 +50,8 @@
     margin: auto;
   }
   .square{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
   }
   .menu-lives img{
     height: 45px;
@@ -65,10 +65,17 @@
 
 @media screen and (max-width: 340px){
   .square{
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
   }
   .menu-lives img{
     height: 35px;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .square{
+    height: 90px;
+    width: 90px;
   }
 }
